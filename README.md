@@ -5,7 +5,7 @@
   crypto-config dir
   config/ gen.bk, ch.tx
 
-##네트워크 구성
+## 네트워크 구성
 docker-compose.yml
 docker-compose -> up
 ca, peerx3, cdbx3, orderer, cli(설치,배포한다. 연결정보,인증서,sdk,peer가 있다.)
