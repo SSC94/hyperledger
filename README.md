@@ -3,13 +3,14 @@ crypto-comfig.yaml
 configtx.yaml  
 generate.sh  
 crypto-config dir  
-config/ gen.bk, ch.tx  
+config/ genesis.block, ch.tx  
 
 ## 네트워크 구성  
+.env  
 docker-compose.yml  
 docker-compose -> up  
-ca, peerx3, cdbx3, orderer, cli(설치,배포한다. 연결정보,인증서,sdk,peer가 있다.)  
-net basic  
+ca, peer (x3), couchDb (x3), orderer, cli(설치,배포한다. 연결정보,인증서,sdk,peer가 있다.)  
+net_basic  
 
 ## 채널 생성
 cli ch.tx  
