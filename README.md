@@ -33,12 +33,12 @@ linux ubuntu 18.04 LTS
 ## docker 설정(docker에 관해 궁금한 것은 공식사이트 참고하자,도커 책도 좋음 얇거나 실전프로젝트책)  
  - network 이름 basic  
  - 서비스 설정   
-  ` images  
-  ` 환경변수  
-  ` 포트포워팅  
-  ` 시작디렉토리  
-  ` 시작명령  
-  ` 공유폴더  
+   *images  
+   *환경변수  
+   *포트포워팅  
+   *시작디렉토리  
+   *시작명령  
+   *공유폴더  
 
 chaincode는 피어에서 작동 channel에 저장 api로 사용(cli도 api)   
 api(web server)- connection.json, 인증서, argument(function name, args)  
