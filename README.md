@@ -1,5 +1,5 @@
 ## 준비물 생성
-  crypto-comfig.yaml  
+crypto-comfig.yaml  
   configtx.yaml  
   generate.sh  
   crypto-config dir  
