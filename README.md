@@ -1,4 +1,4 @@
-##준비물 생성
+## 준비물 생성
   crypto-comfig.yaml
   configtx.yaml
   generate.sh
