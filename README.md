@@ -1,9 +1,9 @@
 ## 준비물 생성
-  crypto-comfig.yaml
-  configtx.yaml
-  generate.sh
-  crypto-config dir
-  config/ gen.bk, ch.tx
+  crypto-comfig.yaml  
+  configtx.yaml  
+  generate.sh  
+  crypto-config dir  
+  config/ gen.bk, ch.tx  
 
 ## 네트워크 구성
 docker-compose.yml
