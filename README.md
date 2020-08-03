@@ -30,7 +30,7 @@ fabric-samples;
 ## 유틸리티 nodejs docker docker-compose curl apt-get tar vi nano go git code  
 linux ubuntu 18.04 LTS  
 
-## docker 설정(docker에 관해 궁금한 것은 공식사이트 참고하자,도커 책도 좋음 얇거나 실전프로젝트책)  
+## docker 설정  
  - network 이름 basic  
  - 서비스 설정   
    *images  
@@ -47,18 +47,19 @@ putstate는 worldstate에 data를 넣는것이고, getstate는 data를 읽는 �
 shim.GetStateByRange("a","z") a에서 z까지 첫글자 정보만 읽는다.  
 cc.sh로 테스트를 해본다.(실행할때 ./를 붙이자)   
 instantiate은 처음 deploy할 때 쓰고, 다음에는 upgrade와 version숫자를 바꿔서 하자  
+docker에 관해 궁금한 것은 공식사이트 참고하자,도커 책도 좋음 얇거나 실전 프로젝트책을   
 
 
 # 2020/08/03 월요일 최광훈 박사님
 
-## - 체인코드 작성 및 쉘 스크립트 작성
+## 체인코드 작성 및 쉘 스크립트 작성 방법
 
-## 1. 체인코드 작성 및 컴파일링
+### 1. 체인코드 작성 및 컴파일링
 cp -r ~/fabric-samples/chaincode/sacc/ ./mysacc (cp복사 -r디렉토리전체 sacc폴더안의 파일을 mysacc에 복사)sacc.go
 go get -u "github.com/hyperledger/fabric/core/chaincode/shim"입력
 go build 를 실행 (go언어로 만든 chaincode를 컴퓨터가 이해할 수 있게 컴파일)
 
-## 2. 컴파일링 된 체인코드를 배포하기
+### 2. 컴파일링 된 체인코드를 배포하기
 실행 전./teardown.sh 명령어를 통해 네트워크를 초기화 진행 후 ./start.sh 명령어를 통해 다시 네트워크 구축
 ./cc.sh를 실행하여 chaincode 테스트
 
